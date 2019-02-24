@@ -1,0 +1,26 @@
+html{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    overflow-y: scroll;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #FFD166;
+}
+
+h1, h2, h3, h4{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
