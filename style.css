@@ -22,7 +22,7 @@ a:hover{
     color: #FFD166;
 }
 
-h1, h2, h3, h4{
+h1, h2, h3, h4,h5{
     margin: 0;
     padding: 0;
     font-weight: lighter;
@@ -32,12 +32,24 @@ h1{
     font-weight: bold;
 }
 h2{
-    font-size: 100%;
+    font-size: 120%;
     color: #FFD166;
 }
 h3{
+    font-size: 120%;
+    color: #FFD166;
+    font-weight: bold;
+}
+
+h4{
     font-size: 100%;
 }
+
+h5{
+    font-size: 100%;
+    font-weight: bold;
+}
+
 nav ul{
   margin: 20px 0px 20px 0px;
 }
@@ -48,7 +60,6 @@ nav ul li{
 }
 
 ul{
-    list-style: none;
     padding-inline-start: 0px;
     margin-top: 10px;
 }
@@ -58,7 +69,21 @@ ul{
     margin: 0 auto;
     padding: 0 3rem;
 } */
+button{
+  background: white;
+  border-radius: 100px;
+  padding: 5px;
+  width: 8em;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  color: black;
+  font-family: inherit;
 
+}
+
+button:hover {
+  box-shadow: 0 0 2px 1px rgba(255,209,102, 0.5);
+}
 @media screen and (max-width: 580px){
     container{
         padding: 0 2rem;
@@ -72,9 +97,15 @@ img{
 
 .roundimg{
     border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .col{
+    /* margin:10px; */
     float: left;
     width: 50%;
     padding: 20px;
@@ -84,4 +115,17 @@ img{
 .row:after{
     display: table;
     clear: both;
+}
+
+.resume_row{
+    padding: 50px 100px 0px 100px;
+}
+
+
+.resume_info{
+    padding: 15px 80px 15px 80px;
+    font-size: 85%;
+}
+.resume_info_detail{
+    margin: 0px 30px 0px 30px;
 }
