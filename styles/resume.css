@@ -1,0 +1,38 @@
+.container{
+    width: 100%;
+}
+.resume-flex{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #fafafa;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.resume_row{
+    /* width: 80%;
+    margin:20px auto; */
+    padding: 20px 75px;
+}
+
+.line{
+    margin:5px 0;
+    padding:0;
+    width:100%;
+    border-bottom:2px solid red;
+}
+.resume-info a{
+    color: red;
+}
+.skills li{
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+@media screen and (max-width: 650px) {
+    .resume_row{
+        padding: 10px 10px;
+        margin: 10px auto;
+        width: auto;
+    }
+}

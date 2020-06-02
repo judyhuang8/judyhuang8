@@ -1,61 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
-        <title>judy huang</title>
-        <link rel="icon" href="images/jh.jpg" >
 
-    </head>
+<head>
+    <title>judy.</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
+    <script src="script.js"></script>
+    <link rel="icon" href="images/J.png">
+</head>
 
-    <body>
-        <header>
-            <div class = "navbar">
-                <nav>
-                    <h1>
-                        jh.
-                    </h1>
-                    <ul>
-                        <li><a href = "index.html"> home</a></li>
-                        <li><a href = "resume.html"> résumé</a></li>
-                        <li><a href = "projects.html"> projects</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+<body>
+    <div class="hello column">
+        <h1>HELLO</h1>
+        <h1>HELLO</h1>
+        <h1 class="red">HELLO</h1>
+        <h1>HELLO</h1>
+        <h1>HELLO</h1>
+    </div>
 
+    <main class="hidden" id="about">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html#about">
+                        <h3> ABOUT</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="projects.html">
+                        <h3> PROJECTS</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="resume.html">
+                        <h3> RESUME</h3>
+                    </a>
+                </li>
+                <!-- <li>
+                    <a href="art.html">
+                        <h3> ART</h3>
+                    </a>
+                </li> -->
+            </ul>
+        </nav>
 
-        <div class = "container">
-            <div class = "main-flex">
-                <div class = "profile-img">
-                    <img src = "images/dumbo.jpg">
-                </div>
-                <div class = "intro">
-                    <h2>
-                        Hey there!
-                    </h2>
-                </br>
-                    <h3>
-                        I'm Judy a freshman studying Computer Science at Cornell University!
-                        I am passionate about design and programming. I  want to create products,
-                        for the community, that are visually appealing, thoughtfully designed, and
-                        beautifully programmed.
-                    </h3>
-                    <div class = "contact">
-                        <h2>
-                            Find me here!
-                            <br />
-                        </h2>
-                        <button><a href = "https://github.com/judyhuang8"> github</a></button>
-                        <button><a href = "https://www.linkedin.com/in/judyhuang8/"> linkedin</a></button>
+        <div class="container" id="about">
+            <div class="introduction row">
+                <img src="images/bw.png">
+                <div class="description column">
+                    <div class="name">
+                        <h1> I'M</h1>
+                        <h1 class="red">JUDY</h1>
                     </div>
+                    <div class="information">
+                        <p>I am currently a sophomore studying computer science at
+                            Cornell University.
+                        </p>
+                        <p>I am passionate about design and programming. I want to
+                            create products, for the community, that are visually
+                            appealing, thoughtfully designed, and well
+                            programmed.
+                        </p>
+                        <p>
+                            Let’s connect!
+                        </p>
+                        <p id="contact">
+                            <a href="mailto: jh994@cornell.edu">Email</a>
+                            <a href="https://www.linkedin.com/in/judyhuang8/">LinkedIn</a>
+                            <a href="https://github.com/judyhuang8">GitHub</a>
+                        </p>
+                    </div>
+
                 </div>
             </div>
         </div>
-    </body>
+
+
+    </main>
+
+</body>
 
 </html>

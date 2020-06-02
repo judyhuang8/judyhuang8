@@ -1,0 +1,59 @@
+.proj-detail button{
+    background-color: transparent;
+    border: 1px solid black;
+}
+.proj-detail button:hover{
+    background-color: red;
+    transition: .25s ease;
+    color: white;
+}
+.proj-detail a{
+    color: red;
+}
+.proj-detail a:hover{
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    transition: .25s ease;
+}
+.project-left, .project-right{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:50px 0;
+    align-items: flex-end;
+    justify-content: center;
+}
+.proj-img img{
+    width:300px;
+    height:300px;
+    margin:0;
+}
+.proj-info{
+    width: 50%;
+    margin: 20px;
+}
+.proj-detail{
+    background-color:#fafafa;
+    color:black;
+    padding:10px;
+    margin:0;
+    word-wrap:break-word;
+}
+.proj-header {
+    color:black;
+    padding:10px;
+    margin-bottom:10px;
+    border-bottom:2px solid red;
+    text-align: right;
+}
+.project-right .proj-header{
+    text-align: left;
+}
+
+@media screen and (max-width: 900px){
+    .proj-info{
+        width: 90%;
+        margin: 20px;
+    }
+}
